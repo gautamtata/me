@@ -92,7 +92,7 @@ export default [
           Logic proof checker
         </div>
         <div className='portfolio-item__desc'>
-          A Proof checking tool for logical discrepancies. 
+         Proof checker for Fitch-style natural deduction systems found in logic textbooks.
           
         </div>
         <div className='portfolio-item__icon'>
@@ -101,7 +101,8 @@ export default [
   
         </div>
         <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/jayarellano6/capstone-openLogic">Github</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/openLogic">Github</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://logic-proof-checker.herokuapp.com/">Website</a>
         </div>
       </div>
     )
