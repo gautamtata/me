@@ -17,7 +17,7 @@ export default [
         </div>
         <div className='portfolio-item__links'>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/JavascriptAnnotableMaps">Github</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://js-annotated-maps.herokuapp.com/">Demo</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://js-annotated-maps.herokuapp.com/">Website</a>
         </div>
       </div>
     )
