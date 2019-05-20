@@ -1,7 +1,7 @@
 {
   "name": "GautamTata-resume",
   "version": "0.1.0",
-  "homepage": "https://gautamtata.github.io/resume/",
+  "homepage": "https://gautamtata.github.io/me/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",

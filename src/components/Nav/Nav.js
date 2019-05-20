@@ -70,11 +70,11 @@ class Nav extends Component {
             className="menu__item"
             onClick={(e) => this.scrollToPage('.portfolio-page')}
           >
-            Portfolio
+            Projects
           </a>
           <a 
             className="menu__item"
-            href='https://drive.google.com/file/d/1DQi3AW1sRYDeWbJ7wjzHiGZQFgTFEabb/view?usp=sharing'
+            href='https://drive.google.com/file/d/1W4vLLLcgDO407lluhZSU0VHCUXOQeSe2/view?usp=sharing'
           >
             Resume
           </a>
