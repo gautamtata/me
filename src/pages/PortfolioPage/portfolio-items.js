@@ -17,28 +17,7 @@ export default [
         </div>
         <div className='portfolio-item__links'>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/JavascriptAnnotableMaps">Github</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://js-annotated-maps.herokuapp.com/">Website</a>
-        </div>
-      </div>
-    )
-  },
-  {
-    name: 'Brink',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-          Brink
-        </div>
-        <div className='portfolio-item__desc'>
-           A platform which undergrads can use to access cover letters, resumes from industry professionals to help with their job hunt.
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-react"></i>
-          <i className="fab fa-node"></i>
-        </div>
-        <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/Brink">Github</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://gautamtata.github.io/Brink">Website</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://js-annotated-maps.herokuapp.com/">Demo</a>
         </div>
       </div>
     )
@@ -54,7 +33,7 @@ export default [
          A tool that checks whether the application is running a flask or node.js server
         </div>
         <div className='portfolio-item__icon'>
-          <i className="fab fa-js"></i>
+          <i className="fab fa-python"></i>
           <i className="fab fa-node"></i>
         </div>
         <div className='portfolio-item__links'>
@@ -72,7 +51,7 @@ export default [
           PG Musuem website
         </div>
         <div className='portfolio-item__desc'>
-          Webapp build for pacific grove museum of natural history
+         Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
         </div>
         <div className='portfolio-item__icon'>
           <i className="fab fa-js"></i>
@@ -119,13 +98,31 @@ export default [
         </div>
         <div className='portfolio-item__icon'>
           <i className="fab fa-react"></i>
-          <i className="fas fa-terminal"></i>
+          
         </div>
         <div className='portfolio-item__links'>
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@gautamtata/chrome-extension-instagram-web-scraper-a247dec2afd1">Blog </a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/Instagram-web-scraper
           
           ">Github</a>
+        </div>
+      </div>
+    )
+  },{
+    name: 'Brink',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+          Brink
+        </div>
+        <div className='portfolio-item__desc'>
+           A platform which undergrads can use to access cover letters, resumes from industry professionals to help with their job hunt.
+        </div>
+        <div className='portfolio-item__icon'>
+          
+        </div>
+        <div className='portfolio-item__links'>
+          Coming Soon
         </div>
       </div>
     )

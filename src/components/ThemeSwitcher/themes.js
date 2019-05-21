@@ -1,85 +1,16 @@
 const themes = [
  
-  
   {
-    name: 'blue-alt',
-    firstTime: true,
-    colorPrimary: '#FAFAFA',
-    colorAlternate: '#4ea9da',
-    colorHighlight: '#2a93cb',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(78, 169, 218, 0.75)'
-  },
-  {
-    name: 'cyan-alt',
-    firstTime: true,
-    colorPrimary: '#FAFAFA',
-    colorAlternate: '#3dc0b0',
-    colorHighlight: '#35a698',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(61, 192, 176, 0.75)'
-  },
-
-  {
-    name: 'red-alt',
+    name: 'matte-black',
     firstTime: true,
     colorPrimary: '#FFFFFF',
-    colorAlternate: '#89303d',
-    colorHighlight: '#63232c',
-    textPrimary: '#FFFFFF',
-    navAlpha: 'rgba(137, 48, 61, 0.75)'
-  },
-  {
-    name: 'indigo-alt',
-    firstTime: true,
-    colorPrimary: '#FAFAFA',
-    colorAlternate: '#303F9F',
-    colorHighlight: '#242f78',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(48, 63, 159, 0.75)'
-  },
-  {
-    name: 'grey-alt',
-    firstTime: true,
-    colorPrimary: '#FFFFFF',
-    colorAlternate: '#485564',
+    colorAlternate: '#000000',
     colorHighlight: '#333c46',
     textPrimary: '#FFFFFF',
     navAlpha: 'rgba(72, 85, 100, 0.75)'
   },
-  {
-    name: 'material-cyan',
-    colorPrimary: '#00BCD4',
-    colorAlternate: '#FFFFFF',
-    colorHighlight: '#d4faff',
-    textPrimary: '#212121',
-    navAlpha: 'rgba(255, 255, 255, 0.75)'
-  },
-  {
-    name: 'material-brown',
-    colorPrimary: '#845c4e',
-    colorAlternate: '#FFFFFF',
-    colorHighlight: '#eee6e3',
-    textPrimary: '#212121',
-    navAlpha: 'rgba(255, 255, 255, 0.75)'
-  },
-  {
-    name: 'material-grey',
-    firstTime: true,
-    colorPrimary: '#607D8B',
-    colorAlternate: '#FFFFFF',
-    colorHighlight: '#dfe6e9',
-    textPrimary: '#212121',
-    navAlpha: 'rgba(255, 255, 255, 0.75)'
-  },
-  {
-    name: 'material-grey-alt',
-    colorPrimary: '#FFFFFF',
-    colorAlternate: '#455A64',
-    colorHighlight: '#374850',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(69, 90, 100, 0.75)'
-  }
+
+ 
 ];
 
 export const getThemes = () => {

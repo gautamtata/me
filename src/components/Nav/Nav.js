@@ -65,6 +65,13 @@ class Nav extends Component {
           `}
         </style>
         <div className="menu">
+        <a  style = {{color:'white'}}
+            className="menu__item"
+            href="mailto:gautamtata@gmail.com" 
+            target="_top"
+          >
+            Contact Me
+          </a>
         
           <a
             className="menu__item"
@@ -72,13 +79,15 @@ class Nav extends Component {
           >
             Projects
           </a>
-          <a 
+          <a
+            style = {{color:'white'}} 
             className="menu__item"
             href='https://drive.google.com/file/d/1W4vLLLcgDO407lluhZSU0VHCUXOQeSe2/view?usp=sharing'
           >
             Resume
           </a>
           <a 
+            style = {{color:'white'}}
             className="menu__item"
             href='https://github.com/gautamtata'
           >
