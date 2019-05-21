@@ -75,6 +75,7 @@ class Nav extends Component {
         
           <a
             className="menu__item"
+            
             onClick={(e) => this.scrollToPage('.portfolio-page')}
           >
             Projects
@@ -82,6 +83,8 @@ class Nav extends Component {
           <a
             style = {{color:'white'}} 
             className="menu__item"
+            rel='noopener noreferrer'
+            target="_blank"
             href='https://drive.google.com/file/d/1W4vLLLcgDO407lluhZSU0VHCUXOQeSe2/view?usp=sharing'
           >
             Resume
@@ -89,6 +92,8 @@ class Nav extends Component {
           <a 
             style = {{color:'white'}}
             className="menu__item"
+            rel='noopener noreferrer'
+            target="_blank"
             href='https://github.com/gautamtata'
           >
             Github
