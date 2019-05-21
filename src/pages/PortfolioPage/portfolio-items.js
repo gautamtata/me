@@ -29,7 +29,7 @@ export default [
         <div className='portfolio-item__title'>
          Node or Flask
         </div>
-        <div className='portfolio-item__desc'>
+        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
          A tool that checks whether the application is running a flask or node.js server
         </div>
         <div className='portfolio-item__icon'>
@@ -93,14 +93,14 @@ export default [
         <div className='portfolio-item__title'>
           Instagram web Scraper
         </div>
-        <div className='portfolio-item__desc'>
+        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
            A Chrome extension for scraping content from Instagram!
         </div>
         <div className='portfolio-item__icon'>
           <i className="fab fa-react"></i>
           
         </div>
-        <div className='portfolio-item__links'>
+        <div className='portfolio-item__links' >
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@gautamtata/chrome-extension-instagram-web-scraper-a247dec2afd1">Blog </a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/Instagram-web-scraper
           
