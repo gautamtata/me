@@ -22,10 +22,15 @@
     flex: auto;
   }
 
+  .portfolio-item__links{
+    text-decoration: underline;
+  }
+
   .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 
     @include breakpoint-small-down {
       flex-direction: column;

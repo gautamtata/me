@@ -30,8 +30,8 @@ const LandingPage = (props, context) => {
           <div className="tagline">
           <b style = {{color: 'yellow', fontSize: 32}}>I'M A</b> Full Stack Developer | UI/UX enthusiast 
            <br />
-           I've worked on a vareity of <a style = {{color: 'yellow', textDecoration: 'underline', cursor:'pointer'}} onClick={(e) => scrollToPage('.portfolio-page')}>projects</a> in teams and independently. I'm most proud of my <a style = {{color: 'yellow', textDecoration: 'underline',cursor:'pointer'}} href = 'https://js-annotated-maps.herokuapp.com/' rel='noopener noreferrer' target="_blank">annotatable maps tool;</a>
-           which you can easily use to generate custom maps based on lat-longs with a variety of other features making maps 
+           I've worked on a variety of <a style = {{color: 'yellow', textDecoration: 'underline', cursor:'pointer'}} onClick={(e) => scrollToPage('.portfolio-page')}>projects</a> in teams and independently. I'm most proud of my <a style = {{color: 'yellow', textDecoration: 'underline',cursor:'pointer'}} href = 'https://js-annotated-maps.herokuapp.com/' rel='noopener noreferrer' target="_blank">annotatable maps tool;</a>
+            which you can easily use to generate custom maps based on lat-longs with a variety of other features making maps 
            highly customizable and interactive. <b> <a style = {{color:'yellow', textDecoration: 'underline',cursor:'pointer'}} href="mailto:gautamtata@gmail.com" 
             target="_top">Looking for exciting new opportunities.</a></b> 
           </div>

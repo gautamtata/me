@@ -9,10 +9,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
-  
-  
-
+ 
   @include breakpoint-small-down {
     height: 4rem;
   }
