@@ -85,7 +85,7 @@ class Nav extends Component {
             className="menu__item"
             rel='noopener noreferrer'
             target="_blank"
-            href='https://drive.google.com/file/d/1W4vLLLcgDO407lluhZSU0VHCUXOQeSe2/view?usp=sharing'
+            href='https://drive.google.com/file/d/1CmG2MithdeCBe2Z4-pJlr1umDduofHmZ/view?usp=sharing'
           >
             Resume
           </a>

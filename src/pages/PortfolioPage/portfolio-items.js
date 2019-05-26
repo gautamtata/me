@@ -23,47 +23,6 @@ export default [
     )
   },
   {
-    name: 'Node or Flask',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-         Node or Flask
-        </div>
-        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
-         A tool that checks whether the application is running a flask or node.js server
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-python"></i>
-          <i className="fab fa-node"></i>
-        </div>
-        <div className='portfolio-item__links'>
-          
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/node-or-flask">Github</a>
-        </div>
-      </div>
-    )
-  }, 
-  {
-    name: 'Pacific grove museum website',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-          PG Musuem website
-        </div>
-        <div className='portfolio-item__desc'>
-         Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-js"></i>
-          <i className="fab fa-node"></i>
-        </div>
-        <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/mccon1mj/mccon1mj.github.io">Github</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://thewatershedguardians.org">Website</a>
-        </div>
-      </div>
-    )
-  },{
     name: 'Logic proof checker',
     render: (
       <div className='portfolio-item'>
@@ -86,6 +45,48 @@ export default [
       </div>
     )
   },
+  {
+    name: 'Pacific grove museum website',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+          PG Musuem website
+        </div>
+        <div className='portfolio-item__desc'>
+         Website for data visualizations and resources for climate change in Monterey County for the Pacific Grove Museum.
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-node"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/mccon1mj/mccon1mj.github.io">Github</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://thewatershedguardians.org">Website</a>
+        </div>
+      </div>
+    )
+  },
+  {
+    name: 'Node or Flask',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+         Node or Flask
+        </div>
+        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
+         A tool that checks whether the application is running a flask or node.js server
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-python"></i>
+          <i className="fab fa-node"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/node-or-flask">Github</a>
+        </div>
+      </div>
+    )
+  }, 
   {
     name: 'Insta-web-scraper',
     render: (
