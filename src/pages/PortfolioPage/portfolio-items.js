@@ -29,8 +29,8 @@ export default [
         <div className='portfolio-item__title'>
           Logic proof checker
         </div>
-        <div className='portfolio-item__desc'>
-         Proof checker for Fitch-style natural deduction systems found in logic textbooks.
+        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
+         A proof checker for Logic. Built for California State University at Monterey bay.
           
         </div>
         <div className='portfolio-item__icon'>
@@ -73,7 +73,7 @@ export default [
         <div className='portfolio-item__title'>
          Node or Flask
         </div>
-        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
+        <div className='portfolio-item__desc' >
          A tool that checks whether the application is running a flask or node.js server
         </div>
         <div className='portfolio-item__icon'>
