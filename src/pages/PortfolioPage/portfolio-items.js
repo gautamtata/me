@@ -2,6 +2,29 @@ import React from 'react';
 
 export default [
   {
+    name: 'Logic proof checker',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+          Logic proof checker
+        </div>
+        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
+         A proof checking application that saves teaching assistants hours on grading.
+          
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fas fa-database"></i>
+  
+        </div>
+        <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/logic-proof-checker">Github</a>
+        <a target="_blank" rel="noopener noreferrer" href="http://logic-checker.gautamtata.com">Website</a>
+        </div>
+      </div>
+    )
+  },
+  {
     name: 'Javascript annotable maps',
     render: (
       <div className='portfolio-item'>
@@ -18,29 +41,6 @@ export default [
         <div className='portfolio-item__links'>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/JavascriptAnnotableMaps">Github</a>
           <a target="_blank" rel="noopener noreferrer" href="https://js-annotated-maps.herokuapp.com/">Demo</a>
-        </div>
-      </div>
-    )
-  },
-  {
-    name: 'Logic proof checker',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-          Logic proof checker
-        </div>
-        <div className='portfolio-item__desc' style = {{position:'relative',bottom: 20}}>
-         A proof checker for Logic. Built for California State University at Monterey bay.
-          
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-js"></i>
-          <i className="fas fa-database"></i>
-  
-        </div>
-        <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gautamtata/openLogic">Github</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://logic-proof-checker.herokuapp.com/">Website</a>
         </div>
       </div>
     )

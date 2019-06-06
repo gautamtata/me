@@ -6,6 +6,8 @@ import ScrollToNext from '@components/ScrollToNext';
 import { toElement as scrollToElement } from '@utils/scroll'
 import BrowserNotes from '@components/BrowserNotes';
 
+import ProfilePic from '../../gautam-profile.jpg'
+
 import './style.scss';
 
 function scrollToPage(pageSelector){
@@ -26,16 +28,17 @@ const LandingPage = (props, context) => {
           <br />
           <br />
           <div className="intro-name">GAUTAM TATA.</div>
-            <div className= "intro-name"> 
+
+          <img className="profile-pic" src={ProfilePic}></img>
+
+          <div className= "intro-name"> 
           <div className="tagline">
-          <b style = {{color: 'yellow', fontSize: 32}}>I'M A</b> Full Stack Developer | UI/UX enthusiast 
+          <b style = {{color: 'yellow', fontSize: 32}}>Full Stack Developer</b>
            <br />
-           I've worked on a variety of <a style = {{color: 'yellow', textDecoration: 'underline', cursor:'pointer'}} onClick={(e) => scrollToPage('.portfolio-page')}>projects</a> in teams and independently. I'm most proud of my <a style = {{color: 'yellow', textDecoration: 'underline',cursor:'pointer'}} href = 'https://js-annotated-maps.herokuapp.com/' rel='noopener noreferrer' target="_blank">annotatable maps tool;</a>
-            which you can easily use to generate custom maps based on lat-longs with a variety of other features making maps 
-           highly customizable and interactive. <b> <a style = {{color:'yellow', textDecoration: 'underline',cursor:'pointer'}} href="mailto:gautamtata@gmail.com" 
-            target="_top">Looking for exciting new opportunities.</a></b> 
+          <p>I’ve built <b>live</b>, <b>working</b> applications, that <b>have users</b>, for both clients and for fun. <a onClick={(e) => scrollToPage('.portfolio-page')}>Check them out below.</a></p>
+          <p>I'm most proud of <a href="http://www.logic-checker.gautamtata.com"><b>Logic Checker</b></a>: an application that saves teaching assistants hours on grading.</p>
           </div>
-          
+      
           <SocialIcons />
         </div>
        </div> 

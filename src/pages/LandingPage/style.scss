@@ -1,5 +1,15 @@
 @import 'breakpoints';
 
+a {
+  color: yellow;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+b {
+  color: yellow;  
+}
+
 .landing-page {
   min-height: 100vh;
   display: flex;
@@ -7,7 +17,12 @@
   flex-direction: column;
   justify-content: center;
  
-  
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   main {
     display: flex;
@@ -16,8 +31,6 @@
     justify-content: center;
     padding: 3.25rem 1.5rem 1rem;
     text-align: center;
-   
-    
 
     @include breakpoint-small-down {
       padding: 4.25rem 1.5rem 1rem;
@@ -46,7 +59,6 @@
 
        .tagline {
         font-size: 1.375rem;
-        margin: 1.5rem 0;
         font-weight: 300;
         :hover{color: #fff000}
 
